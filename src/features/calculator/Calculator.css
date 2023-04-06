@@ -1,0 +1,40 @@
+.main {
+    text-align: center;
+    margin: 100px auto
+}
+
+.main h1{
+    font-size: 33px;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+}
+
+.calculator-content input {
+    width: 200px;
+    padding: 14px;
+    margin-bottom: 20px;
+}
+
+.calculator-btn button {
+    background-color: azure;
+    min-width: 20px;
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 20px;
+}
+
+.calculator-btn button:hover {
+    background-color: rgb(177, 230, 230);
+}
+
+.calculator-result {
+    margin-block: 20px;
+    font-size: 20px;
+}
+
+.calculator-result :nth-child(2) {
+    font-weight: bold;
+}
